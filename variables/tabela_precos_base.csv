@@ -1,0 +1,121 @@
+Regiao;TipoResidencia;codigoPlanoCobertura;valorParcela;valorParcelaTurbinado
+Centro Oeste;Casa;4;39.9;44.9
+Centro Oeste;Casa;5;49.9;54.9
+Centro Oeste;Casa;6;54.9;59.9
+Centro Oeste;Casa;7;64.9;69.9
+Centro Oeste;Casa;30;74.9;79.9
+Centro Oeste;Casa;15;49.9;54.9
+Centro Oeste;Casa;16;59.9;64.9
+Centro Oeste;Casa;27;64.9;69.9
+Centro Oeste;Casa;28;74.9;79.9
+Centro Oeste;Casa;31;84.9;89.9
+Centro Oeste;Apartamento;4;19.9;24.9
+Centro Oeste;Apartamento;5;24.9;29.9
+Centro Oeste;Apartamento;6;29.9;34.9
+Centro Oeste;Apartamento;7;34.9;39.9
+Centro Oeste;Apartamento;30;44.9;49.9
+Centro Oeste;Apartamento;15;29.9;34.9
+Centro Oeste;Apartamento;16;34.9;39.9
+Centro Oeste;Apartamento;27;39.9;44.9
+Centro Oeste;Apartamento;28;44.9;49.9
+Centro Oeste;Apartamento;31;54.9;59.9
+Nordeste;Casa;4;29.9;34.9
+Nordeste;Casa;5;39.9;44.9
+Nordeste;Casa;6;44.9;49.9
+Nordeste;Casa;7;54.9;59.9
+Nordeste;Casa;30;64.9;69.9
+Nordeste;Casa;15;39.9;44.9
+Nordeste;Casa;16;49.9;54.9
+Nordeste;Casa;27;54.9;59.9
+Nordeste;Casa;28;64.9;69.9
+Nordeste;Casa;31;74.9;79.9
+Nordeste;Apartamento;4;19.9;24.9
+Nordeste;Apartamento;5;24.9;29.9
+Nordeste;Apartamento;6;29.9;34.9
+Nordeste;Apartamento;7;34.9;39.9
+Nordeste;Apartamento;30;44.9;49.9
+Nordeste;Apartamento;15;29.9;34.9
+Nordeste;Apartamento;16;34.9;39.9
+Nordeste;Apartamento;27;39.9;44.9
+Nordeste;Apartamento;28;44.9;49.9
+Nordeste;Apartamento;31;54.9;59.9
+Norte;Casa;4;39.9;44.9
+Norte;Casa;5;49.9;54.9
+Norte;Casa;6;54.9;59.9
+Norte;Casa;7;64.9;69.9
+Norte;Casa;30;79.9;84.9
+Norte;Casa;15;49.9;54.9
+Norte;Casa;16;59.9;64.9
+Norte;Casa;27;64.9;69.9
+Norte;Casa;28;74.9;79.9
+Norte;Casa;31;89.9;94.9
+Norte;Apartamento;4;29.9;34.9
+Norte;Apartamento;5;34.9;39.9
+Norte;Apartamento;6;39.9;44.9
+Norte;Apartamento;7;44.9;49.9
+Norte;Apartamento;30;54.9;59.9
+Norte;Apartamento;15;39.9;44.9
+Norte;Apartamento;16;44.9;49.9
+Norte;Apartamento;27;49.9;54.9
+Norte;Apartamento;28;54.9;59.9
+Norte;Apartamento;31;64.9;69.9
+Sudeste;Casa;4;29.9;34.9
+Sudeste;Casa;5;39.9;44.9
+Sudeste;Casa;6;44.9;49.9
+Sudeste;Casa;7;54.9;59.9
+Sudeste;Casa;30;64.9;69.9
+Sudeste;Casa;15;39.9;44.9
+Sudeste;Casa;16;49.9;54.9
+Sudeste;Casa;27;54.9;59.9
+Sudeste;Casa;28;64.9;69.9
+Sudeste;Casa;31;74.9;79.9
+Sudeste;Apartamento;4;19.9;24.9
+Sudeste;Apartamento;5;24.9;29.9
+Sudeste;Apartamento;6;29.9;34.9
+Sudeste;Apartamento;7;34.9;39.9
+Sudeste;Apartamento;30;44.9;49.9
+Sudeste;Apartamento;15;29.9;34.9
+Sudeste;Apartamento;16;34.9;39.9
+Sudeste;Apartamento;27;39.9;44.9
+Sudeste;Apartamento;28;44.9;49.9
+Sudeste;Apartamento;31;54.9;59.9
+Sul (regioes metropolitanas);Casa;4;49.9;54.9
+Sul (regioes metropolitanas);Casa;5;59.9;64.9
+Sul (regioes metropolitanas);Casa;6;69.9;74.9
+Sul (regioes metropolitanas);Casa;7;84.9;89.9
+Sul (regioes metropolitanas);Casa;30;94.9;99.9
+Sul (regioes metropolitanas);Casa;15;59.9;64.9
+Sul (regioes metropolitanas);Casa;16;69.9;74.9
+Sul (regioes metropolitanas);Casa;27;79.9;84.9
+Sul (regioes metropolitanas);Casa;28;94.9;99.9
+Sul (regioes metropolitanas);Casa;31;104.9;109.9
+Sul (regioes metropolitanas);Apartamento;4;24.9;29.9
+Sul (regioes metropolitanas);Apartamento;5;29.9;34.9
+Sul (regioes metropolitanas);Apartamento;6;34.9;39.9
+Sul (regioes metropolitanas);Apartamento;7;39.9;44.9
+Sul (regioes metropolitanas);Apartamento;30;49.9;54.9
+Sul (regioes metropolitanas);Apartamento;15;34.9;39.9
+Sul (regioes metropolitanas);Apartamento;16;39.9;44.9
+Sul (regioes metropolitanas);Apartamento;27;44.9;49.9
+Sul (regioes metropolitanas);Apartamento;28;49.9;54.9
+Sul (regioes metropolitanas);Apartamento;31;59.9;64.9
+Sul (demais regioes);Casa;4;69.9;74.9
+Sul (demais regioes);Casa;5;79.9;84.9
+Sul (demais regioes);Casa;6;89.9;94.9
+Sul (demais regioes);Casa;7;104.9;109.9
+Sul (demais regioes);Casa;30;114.9;119.9
+Sul (demais regioes);Casa;15;79.9;84.9
+Sul (demais regioes);Casa;16;89.9;94.9
+Sul (demais regioes);Casa;27;99.9;104.9
+Sul (demais regioes);Casa;28;114.9;119.9
+Sul (demais regioes);Casa;31;124.9;129.9
+Sul (demais regioes);Apartamento;4;24.9;29.9
+Sul (demais regioes);Apartamento;5;29.9;34.9
+Sul (demais regioes);Apartamento;6;34.9;39.9
+Sul (demais regioes);Apartamento;7;39.9;44.9
+Sul (demais regioes);Apartamento;30;49.9;54.9
+Sul (demais regioes);Apartamento;15;34.9;39.9
+Sul (demais regioes);Apartamento;16;39.9;44.9
+Sul (demais regioes);Apartamento;27;44.9;49.9
+Sul (demais regioes);Apartamento;28;49.9;54.9
+Sul (demais regioes);Apartamento;31;59.9;64.9
