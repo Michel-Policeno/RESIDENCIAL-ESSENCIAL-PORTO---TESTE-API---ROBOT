@@ -17,19 +17,28 @@ Automatizar os testes funcionais e de precificação da API, cobrindo:
 
 RESIDENCIAL-ESSENCIAL-PORTO---TESTE-API---ROBOT/
 ├── resources/                  # Keywords reutilizáveis
-│   ├── autenticacao.keywords.resource
-│   ├── calculo.keywords.resource
-│   ├── proposta.keywords.resource
-│   └── validar.precificacao.keywords.resource
+│  
+ ├── autenticacao.keywords.resource
+│   
+ ├── calculo.keywords.resource
+│   
+ ├── proposta.keywords.resource
+│   
+ └── validar.precificacao.keywords.resource
 │
 ├── tests/                      # Casos de teste organizados por assunto
-│   ├── 01-autenticacao.robot
-│   ├── 02-precificacao.robot
-│   ├── 03-proposta.robot 
+│   
+ ├── 01-autenticacao.robot
+│   
+ ├── 02-precificacao.robot
+│   
+ ├── 03-proposta.robot 
 │
 ├── variables/                  # Arquivo com variáveis reutilizáveis
-│   ├── variables.resource
-│   └── tabela_precos_base.csv  # Base com preços esperados por região/plano
+│   
+ ├── variables.resource
+│   
+ └── tabela_precos_base.csv  # Base com preços esperados por região/plano
 │
 ├── .gitignore
 └── README.md                   # Este arquivo
