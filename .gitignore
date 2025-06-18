@@ -1,5 +1,5 @@
 # Arquivo sensivel com as credencias
-variables.hml.resource
+variables.resource
 
 # Diretório de ambiente virtual
 .venv/
