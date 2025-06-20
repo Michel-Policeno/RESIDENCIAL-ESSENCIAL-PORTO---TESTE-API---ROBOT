@@ -15,21 +15,37 @@ Automatizar os testes funcionais e de precificação da API, cobrindo:
 ## 📁 Estrutura do Projeto
 
 RESIDENCIAL-ESSENCIAL-PORTO---TESTE-API---ROBOT/
+
 |__resources/                                   # Keywords reutilizáveis
+
 |_____________autenticacao.keywords.resource
+
 |_____________calculo.keywords.resource
+
 |_____________proposta.keywords.resource
+
 |
+
 |__tests/                                       # Casos de teste organizados por assunto
+
 |_____________01-autenticacao.robot
+
 |_____________02-precificacao.robot
+
 |_____________03-proposta.robot
+
 |
+
 |__variables/                                   # Arquivo com variáveis reutilizáveis
+
 |_____________tabela_precos_base.csv
+
 |_____________variables.resource
+
 |
+
 |__.gitignore
+
 |__README.md 
 
 
@@ -62,8 +78,11 @@ robot --outputdir output tests/
 ## 📊 Ver Resultados
 Após a execução, arquivos HTML serão gerados automaticamente na raiz do projeto:
 |__output/
+
 |_____log.html
+
 |_____output.xml
+
 |_____report.html
 
 
