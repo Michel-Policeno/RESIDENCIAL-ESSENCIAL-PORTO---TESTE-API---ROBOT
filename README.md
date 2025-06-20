@@ -24,6 +24,8 @@ RESIDENCIAL-ESSENCIAL-PORTO---TESTE-API---ROBOT/
 
 |_____________proposta.keywords.resource
 
+|_____________validar.precificacao.keywords.resource
+
 |
 
 |__tests/                                       # Casos de teste organizados por assunto
