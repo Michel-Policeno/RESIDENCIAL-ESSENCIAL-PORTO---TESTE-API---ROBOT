@@ -15,32 +15,23 @@ Automatizar os testes funcionais e de precificação da API, cobrindo:
 ## 📁 Estrutura do Projeto
 
 RESIDENCIAL-ESSENCIAL-PORTO---TESTE-API---ROBOT/
-├── resources/                  # Keywords reutilizáveis
-│  
- ├── autenticacao.keywords.resource
-│   
- ├── calculo.keywords.resource
-│   
- ├── proposta.keywords.resource
-│   
- └── validar.precificacao.keywords.resource
-│
-├── tests/                      # Casos de teste organizados por assunto
-│   
- ├── 01-autenticacao.robot
-│   
- ├── 02-precificacao.robot
-│   
- ├── 03-proposta.robot 
-│
-├── variables/                  # Arquivo com variáveis reutilizáveis
-│   
- ├── variables.resource
-│   
- └── tabela_precos_base.csv  # Base com preços esperados por região/plano
-│
-├── .gitignore
-└── README.md                   # Este arquivo
+|__resources/                                   # Keywords reutilizáveis
+|_____________autenticacao.keywords.resource
+|_____________calculo.keywords.resource
+|_____________proposta.keywords.resource
+|
+|__tests/                                       # Casos de teste organizados por assunto
+|_____________01-autenticacao.robot
+|_____________02-precificacao.robot
+|_____________03-proposta.robot
+|
+|__variables/                                   # Arquivo com variáveis reutilizáveis
+|_____________tabela_precos_base.csv
+|_____________variables.resource
+|
+|__.gitignore
+|__README.md 
+
 
 ## 🧰 Instalação e Configuração
 Necessário Python instalado em sua máquina (Python 3.9 ou superior)
@@ -62,19 +53,19 @@ Abra o arquivo variables.EXEMPLO.resource na pasta variables e preencha as crede
 Renomeia o arquivo de variables.EXEMPLO.resource -> variables.resource 
 (ou seja, remova o 'EXEMPLO' do nome do arquivo)
 
+
 ## ▶️ Executar os Testes
 Para rodar todos os testes e gerar os relatórios de execução, utilize o comando:
 robot --outputdir output tests/
 
+
 ## 📊 Ver Resultados
 Após a execução, arquivos HTML serão gerados automaticamente na raiz do projeto:
-├── output/                 
-│   
- ├── log.html
-│  
- ├── output.xml
-│   
-├── report.html
+|__output/
+|_____log.html
+|_____output.xml
+|_____report.html
+
 
 🧪 Autor
 Desenvolvido por Michel Policeno
