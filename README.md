@@ -62,9 +62,8 @@ pip install robotframework-requests
 ### 3) ⚙️ Configurar as Variáveis
 Abra o arquivo variables.EXEMPLO.resource na pasta variables e preencha as credenciais da API:
 
-   *** Variables ***
-   ${CLIENT_ID}        COLE_AQUI_SEU_CLIENT_ID
-   ${CLIENT_SECRET}    COLE_AQUI_SEU_CLIENT_SECRET
+${CLIENT_ID}        COLE_AQUI_SEU_CLIENT_ID
+${CLIENT_SECRET}    COLE_AQUI_SEU_CLIENT_SECRET
 
 Renomeia o arquivo de variables.EXEMPLO.resource -> variables.resource 
 (ou seja, remova o 'EXEMPLO' do nome do arquivo)
