@@ -1,8 +1,7 @@
 # 🏠 Residencial Essencial Porto - Testes Automatizados de API com ROBOT
 
-Este projeto implementa uma suíte de testes automatizados, utilizando **Robot Framework**, para a API de cotação e proposta do produto **Residencial Essencial** da **Porto Seguro**.
+Este projeto implementa uma suíte de testes automatizados, utilizando **Robot Framework**, para a API **Residencial Essencial** da **Porto Seguro**.
 
----
 
 ## 📦 Objetivo
 
@@ -43,7 +42,6 @@ RESIDENCIAL-ESSENCIAL-PORTO---TESTE-API---ROBOT/
 ├── .gitignore
 └── README.md                   # Este arquivo
 
-
 ## 🧰 Instalação e Configuração
 Necessário Python instalado em sua máquina (Python 3.9 ou superior)
 
@@ -57,9 +55,9 @@ pip install robotframework-requests
 ### 3) ⚙️ Configurar as Variáveis
 Abra o arquivo variables.EXEMPLO.resource na pasta variables e preencha as credenciais da API:
 
-*** Variables ***
-${CLIENT_ID}        COLE_AQUI_SEU_CLIENT_ID
-${CLIENT_SECRET}    COLE_AQUI_SEU_CLIENT_SECRET
+   *** Variables ***
+   ${CLIENT_ID}        COLE_AQUI_SEU_CLIENT_ID
+   ${CLIENT_SECRET}    COLE_AQUI_SEU_CLIENT_SECRET
 
 Renomeia o arquivo de variables.EXEMPLO.resource -> variables.resource 
 (ou seja, remova o 'EXEMPLO' do nome do arquivo)
@@ -71,9 +69,12 @@ robot --outputdir output tests/
 ## 📊 Ver Resultados
 Após a execução, arquivos HTML serão gerados automaticamente na raiz do projeto:
 ├── output/                 
-│   ├── log.html
-│   ├── output.xml
-│   ├── report.html
+│   
+ ├── log.html
+│  
+ ├── output.xml
+│   
+├── report.html
 
 🧪 Autor
 Desenvolvido por Michel Policeno
