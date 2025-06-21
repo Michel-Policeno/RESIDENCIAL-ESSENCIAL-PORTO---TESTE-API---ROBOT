@@ -80,15 +80,37 @@ robot --outputdir output tests/
 
 
 ## 📊 Ver Resultados
-Após a execução, arquivos HTML serão gerados automaticamente na raiz do projeto:
+Após a execução da suíte de testes, o Robot Framework gera automaticamente **arquivos de resultado** na raiz do projeto, dentro da pasta output:
+
+Estrutura:
+
 |__output/
 
-|_____log.html
+|_____log.html   # Log detalhado de cada passo executado
 
-|_____output.xml
+|_____output.xml  # Arquivo técnico de resultados (usado por ferramentas externas)
 
-|_____report.html
+|_____report.html  # Resumo geral da execução
 
+### 🔍 Onde ver os **detalhes do response da API**
+
+Todos os testes registram o conteúdo completo do response das requisições feitas à API, através da keyword: Adicionar response ao arquivo log.
+Com isso, podemos consultar o conteúdo completo do response diretamente no log.html.
+
+### 1) Abra o arquivo log.html no seu navegador:
+Vá até a pasta output
+Dê duplo clique em log.html
+
+### 2) Escolha o teste:
+Na barra lateral esquerda, clique sobre o nome do teste desejado para expandi-lo e visualizar as keywords executadas.
+
+### 3) Veja o Response Completo
+Procure a Keyword - Adicionar response ao arquivo log, clique para expandi.
+Procure a Keyword - Response Completo: json, clique para expandi.
+
+### Alternativa 
+Use a busca do navegador (Ctrl+F) para encontrar rapidamente chaves específicas, como:
+"access_token", "numeroOrcamentoExterno", "numeroProposta"
 
 🧪 Autor
 Desenvolvido por Michel Policeno
