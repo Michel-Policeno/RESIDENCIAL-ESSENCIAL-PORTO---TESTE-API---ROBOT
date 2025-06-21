@@ -3,7 +3,7 @@ Library        RequestsLibrary
 Resource      ../variables/variables.resource
 Resource    ./autenticacao.keywords.resource
 Resource    ./calculo.keywords.resource
-
+Resource    ./log.keywords.resource
 
 *** Keywords ***
 transmitir proposta válida 
@@ -94,3 +94,4 @@ transmitir proposta válida
    
     ${retorno}=    POST    url=${PROPOSTA_ENDPOINT}    json=${body}    headers=${headers}    expected_status=any  
     Set Suite Variable    ${retorno}
+    Adicionar response ao arquivo log  ${retorno}
