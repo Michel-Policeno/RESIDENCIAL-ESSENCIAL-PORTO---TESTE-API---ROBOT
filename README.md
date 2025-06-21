@@ -116,8 +116,11 @@ Use a busca do navegador (Ctrl+F) para encontrar rapidamente chaves específicas
 
 "access_token", "numeroOrcamentoExterno", "numeroProposta"
 
+
 🧪 Autor
+
 Desenvolvido por Michel Policeno
+
 Meu linkedin: https://www.linkedin.com/in/michel-policeno-85a866212/
 
 
