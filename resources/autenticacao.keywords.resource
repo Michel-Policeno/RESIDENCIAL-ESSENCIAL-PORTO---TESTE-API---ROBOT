@@ -1,6 +1,7 @@
 *** Settings ***
 Library        RequestsLibrary
 Resource      ../variables/variables.resource
+Resource    ./log.keywords.resource
 
 *** Keywords ***
 Criar Base64 client_id:client_secret para autenticação
@@ -20,6 +21,7 @@ Obter Token de acesso
     ...    scope=${SCOPE}
     ${response}=    POST    url=${TOKEN_ENDPOINT}    data=${data}    headers=${headers}
     Set Suite Variable    ${response}
+    Adicionar response ao arquivo log  ${response}  
 
 Obter Token de acesso credências inválidas
     [Documentation]    Envia requisição com Authorization propositalmente errada  
@@ -31,6 +33,7 @@ Obter Token de acesso credências inválidas
     ...    scope=${SCOPE}
     ${response}=    POST    url=${TOKEN_ENDPOINT}    data=${data}    headers=${headers}    expected_status=any
     Set Suite Variable    ${response}
+    Adicionar response ao arquivo log  ${response}
 
    
 

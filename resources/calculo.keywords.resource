@@ -2,6 +2,7 @@
 Library        RequestsLibrary
 Resource      ../variables/variables.resource
 Resource    ./autenticacao.keywords.resource
+Resource    ./log.keywords.resource
 
 
 *** Keywords ***
@@ -32,6 +33,7 @@ Criar Orcamento Valido
    
     ${response}=    POST    url=${ORCAMENTO_ENDPOINT}    json=${body}    headers=${headers}    expected_status=any  
     Set Suite Variable    ${response}
+    Adicionar response ao arquivo log  ${response}
 
 
 Criar Orcamento Valido pessoa Juridica
@@ -61,3 +63,4 @@ Criar Orcamento Valido pessoa Juridica
    
     ${response}=    POST    url=${ORCAMENTO_ENDPOINT}    json=${body}    headers=${headers}    expected_status=any  
     Set Suite Variable    ${response}
+    Adicionar response ao arquivo log  ${response}

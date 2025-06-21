@@ -3,6 +3,7 @@ Library     Collections
 Resource    ../resources/calculo.keywords.resource
 Resource    ../variables/variables.resource
 Resource    ../resources/proposta.keywords.resource
+Resource    ../resources/log.keywords.resource
 
 *** Test Cases ***
 CT015 - PROPOSTA COM DADOS CORRETOS - PESSOA FISICA
@@ -13,7 +14,9 @@ CT015 - PROPOSTA COM DADOS CORRETOS - PESSOA FISICA
 
     transmitir proposta válida    ${numero_cotacao_aleatorio}    1
     Should Be Equal As Strings    ${retorno.status_code}    200 
-    Dictionary Should Contain Key    ${retorno.json()}    numeroProposta   
+    Dictionary Should Contain Key    ${retorno.json()}    numeroProposta
+    Imprimir response ao console    ${retorno}    numeroProposta
+    
 
 CT016 - PROPOSTA COM DADOS CORRETOS - PESSOA JURIDICA
     ${numero_cotacao_aleatorio}=    Evaluate    __import__('random').randint(1, 99999)
@@ -23,4 +26,5 @@ CT016 - PROPOSTA COM DADOS CORRETOS - PESSOA JURIDICA
 
     transmitir proposta válida    ${numero_cotacao_aleatorio}    2
     Should Be Equal As Strings    ${retorno.status_code}    200 
-    Dictionary Should Contain Key    ${retorno.json()}    numeroProposta 
+    Dictionary Should Contain Key    ${retorno.json()}    numeroProposta
+    Imprimir response ao console    ${retorno}    numeroProposta
