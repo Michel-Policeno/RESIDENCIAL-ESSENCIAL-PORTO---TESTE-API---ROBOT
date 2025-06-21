@@ -95,10 +95,12 @@ Estrutura:
 ### 🔍 Onde ver os **detalhes do response da API**
 
 Todos os testes registram o conteúdo completo do response das requisições feitas à API, através da keyword: Adicionar response ao arquivo log.
+
 Com isso, podemos consultar o conteúdo completo do response diretamente no log.html.
 
 ### 1) Abra o arquivo log.html no seu navegador:
 Vá até a pasta output
+
 Dê duplo clique em log.html
 
 ### 2) Escolha o teste:
@@ -106,10 +108,12 @@ Na barra lateral esquerda, clique sobre o nome do teste desejado para expandi-lo
 
 ### 3) Veja o Response Completo
 Procure a Keyword - Adicionar response ao arquivo log, clique para expandi.
+
 Procure a Keyword - Response Completo: json, clique para expandi.
 
 ### Alternativa 
 Use a busca do navegador (Ctrl+F) para encontrar rapidamente chaves específicas, como:
+
 "access_token", "numeroOrcamentoExterno", "numeroProposta"
 
 🧪 Autor
